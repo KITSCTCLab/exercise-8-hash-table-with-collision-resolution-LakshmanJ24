@@ -3,7 +3,7 @@ import re
 def display_hash(hashtable) -> None:
 	# Write your code here
 	for i in range (0,hashtable):
-		print(i+"-->"+)
+		print(i+"-->"+data)
 
 def Hashing(keyvalue) -> int:
 	return keyvalue % len(HashTable)
