@@ -2,7 +2,7 @@ import re
 
 def display_hash(hashtable) -> None:
 	# Write your code here
-	for i in range (0,hashtable):
+	for i in range (0,len(hashtable)):
 		print(i+"-->"+data)
 
 def Hashing(keyvalue) -> int:
