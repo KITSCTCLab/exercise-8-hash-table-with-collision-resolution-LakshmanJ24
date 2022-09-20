@@ -11,7 +11,7 @@ def Hashing(keyvalue) -> int:
 def insert(Hashtable, keyvalue, value) -> None:
 	# Write your code here
 	for i in range (0, Hashtable):
-		value[i]  = keyvalue % Hashtable
+		value = keyvalue % Hashtable
 
 
 # Do not edit the following code
