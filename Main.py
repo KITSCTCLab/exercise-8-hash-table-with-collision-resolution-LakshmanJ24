@@ -20,7 +20,7 @@ def insert(Hashtable, keyvalue, value) -> None:
 	if(Hashtable[Hashing(keyvalue)]==None):
 		arr=[]
 		Hashtable[Hashing(keyvalue)]=arr
-	Hashtable[Hashing(keyvalue)].append(data)
+	Hashtable[Hashing(keyvalue)].append(value)
 	
 
 # Do not edit the following code
