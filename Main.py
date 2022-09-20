@@ -3,7 +3,7 @@ import re
 def display_hash(Hashtable) -> None:
 	# Write your code here
 	for i in range(0,len(Hashtable)):
-		if(Hastable[i]!=None):
+		if(Hashtable[i]!=None):
 			print(i,end = " ")
 			for j in range(0,len(Hashtable)):
 				print("--> "+Hashtable[i][j], end = " ")
