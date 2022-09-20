@@ -2,11 +2,11 @@ import re
 
 def display_hash(hashtable) -> None:
 	# Write your code here
-	for i in range(0,len(hashtable)):
-		if(hastable[i]!=None):
+	for i in range(0,len(Hashtable)):
+		if(Hastable[i]!=None):
 			print(i,end = " ")
-			for j in range(0,len(hashtable)):
-				print("--> "+hashtable[i][j], end = " ")
+			for j in range(0,len(Hashtable)):
+				print("--> "+Hashtable[i][j], end = " ")
 		print()
 		
 
